@@ -1,0 +1,160 @@
+
+
+:root {
+    --color-primary-brand: #4D5AE5;
+    --color-pressed-state: #404BBF;
+    --color-dark: #2E2F42;
+    --color-text: #434455 ;
+    --color-white: #ffffff;
+    --color-light: #F4F4FD;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-white);
+    color: var(--color-text);
+}
+
+.site-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-primary-brand);
+}
+
+.header-logo {
+    color: var(--color-dark);
+}
+
+.footer-logo {
+    color: var(--color-light);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.btn-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.title-up {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-dark);
+}
+
+.title-down {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;     
+    letter-spacing: 0.02em;
+    color: var(--color-dark);
+}
+
+.medium-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ----------- header ------------- */
+
+.header-nav-item:is(:hover,:focus),
+.header-address-item:is(:hover,:focus){
+    color: var(--color-pressed-state);
+}
+
+.header-nav-item {
+    font-weight: 500;
+    color: var(--color-dark);
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.header-address-item {
+    color: var(--color-text);
+}
+
+/* ----------- order ------------- */
+
+.order {
+    background-color: var(--color-dark);
+}
+
+.order-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.order-btn:is(:hover,:focus) {
+    background-color: var(--color-pressed-state);
+}
+
+.order-btn {
+    background-color: var(--color-primary-brand);
+    color: var(--color-white);
+}
+
+/* ----------- content ------------- */
+
+/* ----------- do ------------- */
+
+/* ----------- team ------------- */
+.team {
+    background-color: var(--color-light);
+}
+
+.team-list-item {
+    background-color: var(--color-white);
+}
+/* ----------- footer ------------- */
+
+.footer {
+    background-color: var(--color-dark);
+}
+
+.footer-text {
+    color: var(--color-light);
+}
+
+/* ----------- gallery ------------- */
+
+.gallery-nav-item:is(:hover,:focus) {
+    background-color: var(--color-pressed-state);
+    color: var(--color-white);
+}
+
+.gallery-nav-item {
+    background-color: var(--color-light);
+    color: var(--color-primary-brand);
+}
+
+.gallery-list-text {
+    color: var(--color-text);
+}
